@@ -39,7 +39,7 @@ interface SceneProps extends React.Props<Scene> {
   backButtonTintColor?: string;
   drawer?: boolean;
   failure?: (() => void) | string;
-  headerBackTitle?: string;
+  backTitle?: string;
   headerMode?: HeaderModeType;
   hideNavBar?: boolean;
   hideTabBar?: boolean;
